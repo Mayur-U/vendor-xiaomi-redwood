@@ -5353,7 +5353,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/displayfeature.default.so"],
-			shared_libs: ["libcutils", "liblog", "libutils", "libbinder", "libxml2", "libdrm", "libstagefright_foundation", "libhidltransport", "libhidlbase", "android.frameworks.sensorservice@1.0", "libtinyxml", "libtinyxml2", "libhardware", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.common@1.2", "libqservice", "libsdm-disp-vndapis", "libgrallocutils", "libqdMetaData", "vendor.qti.hardware.display.mapper@3.0", "vendor.qti.hardware.display.allocator@3.0", "vendor.qti.hardware.display.mapperextensions@1.0", "libmi-stc-HW-modulate", "libgui_vendor", "libclient2slpi.notifier", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libutils", "libbinder", "libxml2", "libdrm", "libstagefright_foundation", "libhidltransport", "libhidlbase", "android.frameworks.sensorservice@1.0", "libtinyxml2", "libhardware", "android.hardware.graphics.allocator@2.0", "android.hardware.graphics.allocator@3.0", "android.hardware.graphics.mapper@3.0", "android.hardware.graphics.common@1.2", "libqservice", "libsdm-disp-vndapis", "libgrallocutils", "libqdMetaData", "vendor.qti.hardware.display.mapper@3.0", "vendor.qti.hardware.display.allocator@3.0", "vendor.qti.hardware.display.mapperextensions@1.0", "libmi-stc-HW-modulate", "libgui_vendor", "libclient2slpi.notifier", "libdisplayconfig.qti", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
