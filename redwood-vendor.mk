@@ -412,7 +412,6 @@ PRODUCT_PACKAGES += \
     libAF \
     libSNPE \
     libXMFaceFocus \
-    libadreno_app_profiles \
     libaidenoiser \
     libaidenoiserv2 \
     libalAILDC \
