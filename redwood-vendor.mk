@@ -467,8 +467,6 @@ PRODUCT_PACKAGES += \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
-    libhdrdynamic \
-    libhdrdynamicootf \
     libhta \
     libipebpsstriping \
     libipebpsstriping170 \
