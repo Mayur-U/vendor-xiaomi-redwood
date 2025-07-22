@@ -410,6 +410,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.citsensorservice@1.1-impl \
     lib3rdpartcontext \
     libAF \
+    libQnnHtpStub \
     libSNPE \
     libXMFaceFocus \
     libaidenoiser \
