@@ -210,7 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/goodix_cfg_group_m20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group_m20.bin \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/goodix_firmware_m20.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_m20.bin \
-    vendor/xiaomi/redwood/proprietary/vendor/firmware/goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_test_limits_255.csv \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b00 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b01 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/vpu20_1v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_1v.b02 \
