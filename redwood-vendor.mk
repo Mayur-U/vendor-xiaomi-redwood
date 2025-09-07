@@ -469,9 +469,11 @@ PRODUCT_PACKAGES += \
     libgoodixhwfingerprint \
     libhdrdynamic \
     libhdrdynamicootf \
+    libhta \
     libipebpsstriping \
     libipebpsstriping170 \
     libjpege \
+    libloadalgo_stub \
     libmctfengine_stub \
     libmiStereoFactoryRemapBasicLib \
     libmiXmlParser \
@@ -554,6 +556,11 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.fx.tunnel@1.0 \
+    bm2n06 \
+    bm2n08 \
+    bm2n13 \
+    bm2n14 \
+    bm2n15 \
     capi_v2_aptX_CLHDADV_Encoder \
     capi_v2_aptX_CLHDAD_Speech_Decoder \
     capi_v2_dap_cpdp \
@@ -596,5 +603,6 @@ PRODUCT_PACKAGES += \
     misound_res_spk \
     batterysecret \
     init.qcom.sensors \
+    loadalgo \
     sensors.qti \
     sscrpcd

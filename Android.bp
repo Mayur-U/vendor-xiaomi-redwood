@@ -8022,6 +8022,31 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhta",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhta.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcdsprpc",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libipebpsstriping",
     owner: "xiaomi",
     strip: {
@@ -8169,6 +8194,31 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.display.mapper@4.0",
                 "vendor.qti.hardware.display.mapperextensions@1.1",
                 "libcdsprpc",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libloadalgo_stub",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libloadalgo_stub.so",
+            ],
+            shared_libs: [
+                "libcdsprpc",
+                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -10746,6 +10796,51 @@ cc_prebuilt_library_shared {
 }
 
 prebuilt_rfsa {
+    name: "bm2n06",
+    filename: "bm2n06.bin",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/bm2n06.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "bm2n08",
+    filename: "bm2n08.bin",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/bm2n08.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "bm2n13",
+    filename: "bm2n13.bin",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/bm2n13.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "bm2n14",
+    filename: "bm2n14.bin",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/bm2n14.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
+    name: "bm2n15",
+    filename: "bm2n15.bin",
+    owner: "xiaomi",
+    src: "proprietary/vendor/lib/rfsa/adsp/bm2n15.bin",
+    relative_install_path: "adsp",
+    soc_specific: true,
+}
+
+prebuilt_rfsa {
     name: "capi_v2_aptX_CLHDADV_Encoder",
     filename: "capi_v2_aptX_CLHDADV_Encoder.so",
     owner: "xiaomi",
@@ -11142,6 +11237,35 @@ sh_binary {
     owner: "xiaomi",
     src: "proprietary/vendor/bin/init.qcom.sensors.sh",
     filename: "init.qcom.sensors.sh",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "loadalgo",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/loadalgo",
+            ],
+            shared_libs: [
+                "libutils",
+                "libQSEEComAPI",
+                "libion",
+                "libloadalgo_stub",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
     soc_specific: true,
 }
 
